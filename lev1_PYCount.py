@@ -1,3 +1,4 @@
+#문자열 내 p와 y의 개수
 #추천이 제일 많았던 풀이 //lower -> 소문자 -> count
 def solution(s):
     return s.lower().count("p") == s.lower().count("y")

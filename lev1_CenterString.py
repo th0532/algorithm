@@ -1,3 +1,5 @@
+#가운데 글자 가져오기
+
 #추천이 제일 많았던 풀이 
 def string_middle(str):
     return str[(len(str)-1)//2:len(str)//2+1]
